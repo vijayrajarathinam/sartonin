@@ -19,7 +19,6 @@ function List() {
       >
         Learn more...
       </button>
-      {/* <button></button> */}
       <div className="relative">
         <div className={` w-[${480 * 15}px] py-3 flex overflow-x-auto gap-5 justify-between scrollbar-hide`}>
           {new Array(count).fill(null).map(function () {
