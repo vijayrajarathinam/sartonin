@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
 import { useMoralis } from "react-moralis";
-
 import Header from "../components/commmons/Header";
+import Footer from "../components/commmons/Footer";
 import Login from "../components/auth/Login";
-// import Filter from "../components/course/Filter";
 import CourseList from "../components/course/CourseList";
 
 function course() {
@@ -26,6 +25,7 @@ function course() {
         <p className="font-bold text-xl text-gray-800 my-3">10,000 results for "python"</p>
         <CourseList />
       </div>
+      <Footer />
     </div>
   );
 }

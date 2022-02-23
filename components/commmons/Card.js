@@ -1,12 +1,18 @@
 import { StarIcon } from "@heroicons/react/solid";
 import { StarIcon as OutlinedStarIcon } from "@heroicons/react/outline";
+
 function Card() {
   return (
     <div className="w-[500px] rounded bg-white">
       <div className="w-[240px] flex flex-col">
-        <img className="h-36 w-full " src="https://v1.tailwindcss.com/img/card-top.jpg" />
+        <img
+          className="h-36 w-full "
+          src="https://v1.tailwindcss.com/img/card-top.jpg"
+        />
         <p className="text-xl font-bold px-2">Whats new in crypto..</p>
-        <p className="mt-2 px-2 font-bold text-xs text-gray-500 dark:text-white capitalize">Lorem ipsum</p>
+        <p className="mt-2 px-2 font-bold text-xs text-gray-500 dark:text-white capitalize">
+          Lorem ipsum
+        </p>
         <div className="flex my-2 items-center px-2">
           <p className="text-yellow-600 pr-2">4.4</p>
           {Array(3)

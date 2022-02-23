@@ -4,9 +4,9 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div className="flex flex-col gap-2  lg:gap-0 lg:flex-row justify-between p-10 mt-10 bg-white dark:bg-black">
+      <div className="flex flex-col gap-2 lg:gap-0 lg:flex-row justify-between p-10 mt-10 bg-white dark:bg-black">
         {/* <img src={Logo} className="h-10 w-20" /> */}
-        <p className="h-10 w-20">sartonin</p>
+        <p className="h-10 w-20 text-3xl font-bold">Melonin</p>
         <div className="flex justify-between sm:gap-10 ">
           <div className="flex flex-col gap-3 px-5">
             <p className="font-medium mb-3">Products</p>

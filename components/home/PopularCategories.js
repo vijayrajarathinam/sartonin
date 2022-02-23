@@ -17,39 +17,39 @@ function PopularCategories() {
       <div className="flex items-center justify-evenly mt-7 w-full">
         <div className="flex flex-col items-center cursor-pointer text-gray-600 w-1/4">
           <TerminalIcon className="w-20 h-20" />
-          <p className="font-bold text-lg"> Technology</p>
+          <p className="font-bold text-lg text-center"> Technology</p>
         </div>
         <div className="flex flex-col items-center cursor-pointer text-gray-600 w-1/4">
           <AcademicCapIcon className="w-20 h-20" />
-          <p className="font-bold text-lg"> Academic</p>
+          <p className="font-bold text-lg text-center"> Academic</p>
         </div>
         <div className="flex flex-col items-center cursor-pointer text-gray-600 w-1/4">
           <FilmIcon className="w-20 h-20" />
-          <p className="font-bold text-lg"> Video Editing</p>
+          <p className="font-bold text-lg text-center"> Video Editing</p>
         </div>
 
         <div className="flex flex-col items-center cursor-pointer text-gray-600 w-1/4">
           <NewspaperIcon className="w-20 h-20" />
-          <p className="font-bold text-lg"> Digital Marketing</p>
+          <p className="font-bold text-lg text-center"> Digital Marketing</p>
         </div>
       </div>
       <div className="flex items-center justify-evenly mt-14 w-full">
         <div className="flex flex-col items-center cursor-pointer text-gray-600 w-1/4">
           <CameraIcon className="w-20 h-20" />
-          <p className="font-bold text-lg"> Photography</p>
+          <p className="font-bold text-lg text-center"> Photography</p>
         </div>
         <div className="flex flex-col items-center cursor-pointer text-gray-600 w-1/4">
           <HandIcon className="w-20 h-20" />
-          <p className="font-bold text-lg"> Personal Developemnt</p>
+          <p className="font-bold text-lg text-center"> Personal Developemnt</p>
         </div>
         <div className="flex flex-col items-center cursor-pointer text-gray-600 w-1/4">
           <BriefcaseIcon className="w-20 h-20" />
-          <p className="font-bold text-lg"> Business</p>
+          <p className="font-bold text-lg text-center"> Business</p>
         </div>
 
         <div className="flex flex-col items-center cursor-pointer text-gray-600 w-1/4">
           <MusicNoteIcon className="w-20 h-20" />
-          <p className="font-bold text-lg"> Music</p>
+          <p className="font-bold text-lg text-center"> Music</p>
         </div>
       </div>
     </div>

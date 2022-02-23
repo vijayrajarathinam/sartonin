@@ -5,7 +5,7 @@ function CourseCard() {
   return (
     <div className="flex md:gap-5 py-5 px-3 border-b border-1 border-gray-300">
       <img className="h-36 w-72 " src="https://v1.tailwindcss.com/img/card-top.jpg" />
-      <div className="flex-auto">
+      <div className="flex-auto mx-5">
         <p className="font-bold mt-2">100 Days of Code: The Complete Python Pro Bootcamp for 2022 </p>
         <p className="w-2/3">
           Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and
@@ -27,7 +27,10 @@ function CourseCard() {
         </div>
       </div>
       <div className="flex flex-col w-20 items-center justify-between py-5">
-        <p>$324</p>
+        <p className="flex flex-col md:flex-row items-center">
+          <span className="text-white bg-yellow-600 uppercase px-1 py-0.5 font-bold rounded text-xs mr-1">nft</span>
+          $324
+        </p>
         <button>Buy</button>
       </div>
     </div>
